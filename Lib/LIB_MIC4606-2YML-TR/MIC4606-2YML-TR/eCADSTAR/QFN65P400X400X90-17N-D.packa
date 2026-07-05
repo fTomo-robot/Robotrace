@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MIC4606-2YML-TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-11-07-14:57:43)
+    (mountForm default
+        (footprintRef "QFN65P400X400X90-17N-D")
+        (spec "System")
+    )
+)

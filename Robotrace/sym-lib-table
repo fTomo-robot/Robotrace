@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MIC4606-2YML-TR")(type "KiCad")(uri "/Users/ftomo/Desktop/robo/Lib/LIB_MIC4606-2YML-TR/MIC4606-2YML-TR/KiCad/MIC4606-2YML-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "ICM-42688-P")(type "KiCad")(uri "/Users/ftomo/Desktop/robo/Lib/ICM-42688-P/ICM-42688-P.kicad_sym")(options "")(descr ""))
+)

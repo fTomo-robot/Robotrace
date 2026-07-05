@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=MIC4606-2YML-TR
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=17
+Version=1.1
+Released=2021-11-07 14:57:43
+Downloaded=2026-07-04 15:57:54
+3D=Y

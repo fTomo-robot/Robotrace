@@ -1,0 +1,16 @@
+.MIC4606-2YML-TR :1 ;Gate Drivers 85V Full Bridge FET Driver
+QFN65P400X400X90-17N-D
+*STM IC
+*NGS
+*PLB 1="NC_1" 2="AHB" 3="AHO" 4="AHS" 5="ALO" 6="VDD" 7="VSS" 8="BLO" 9="BHS" 10="BHO" 11="BHB" 12="EN" 13="BPWM" 14="NC_2" 15="NC_3" 16="APWM" 17="EP"
+*MXP 17
+*DFN MIC4606-2YML-TR
+~!Mouser Part Number (998-MIC4606-2YMLTR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MIC4606-2YML-TR?qs=U6T8BxXiZAXbBSyJRhixLg%3D%3D)
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (MIC4606-2YML-TR)
+~!Link Datasheet (http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579238)
+~!Height (0.9mm)
+~!3D_Model (MIC4606-2YML-TR)
+MIC4606-2YML-TR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 12.1!U 11.1!U 10.1!U 9.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 

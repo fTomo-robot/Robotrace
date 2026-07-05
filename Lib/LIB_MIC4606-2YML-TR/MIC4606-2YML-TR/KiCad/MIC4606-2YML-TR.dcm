@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MIC4606-2YML-TR
+D Gate Drivers 85V Full Bridge FET Driver
+K
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579238
+$ENDCMP
+#
+#End Doc Library
