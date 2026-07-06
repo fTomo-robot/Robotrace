@@ -21249,6 +21249,206 @@
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 149.86 80.01) (xy 152.4 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "411ae890-29eb-4719-99f2-2ce69849ed36")
+	)
+	(label "PWM_A_L"
+		(at 152.4 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc6520e2-70c8-4807-a605-b8f43d588127")
+	)
+	(wire
+		(pts
+			(xy 149.86 123.19) (xy 152.4 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da3d7c4-d278-4958-944b-fd4f170f410b")
+	)
+	(label "PWM_B_L"
+		(at 152.4 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8788352c-3d2b-4c4c-b8aa-64007a49a049")
+	)
+	(wire
+		(pts
+			(xy 149.86 125.73) (xy 152.4 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af1f61d5-335c-4e64-8e6e-c770051b2ad3")
+	)
+	(label "PWM_A_R"
+		(at 152.4 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7715984-61c8-4d68-901e-03be504a3120")
+	)
+	(wire
+		(pts
+			(xy 149.86 163.83) (xy 152.4 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98ca33b-4c91-4752-9560-4789d85bf050")
+	)
+	(label "PWM_B_R"
+		(at 152.4 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32d89e53-6935-4ad8-abf5-78c75112675a")
+	)
+	(wire
+		(pts
+			(xy 149.86 113.03) (xy 152.4 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb4cf07-e47c-4789-a1c1-397f22e2765a")
+	)
+	(label "Enc_A_L"
+		(at 152.4 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "babd2212-424a-4ff3-a2d6-a5d3e5fb41b0")
+	)
+	(wire
+		(pts
+			(xy 149.86 115.57) (xy 152.4 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324a7ca9-7074-4ef5-aa25-3c0a02fd7895")
+	)
+	(label "Enc_B_L"
+		(at 152.4 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b8816b0-3a7e-4f32-a5b0-2d98338c74df")
+	)
+	(wire
+		(pts
+			(xy 149.86 156.21) (xy 152.4 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c55085-2390-4cfb-90c3-cf2a0f960020")
+	)
+	(label "Enc_A_R"
+		(at 152.4 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f139106-a75c-4ee5-9966-b7da65b658ed")
+	)
+	(wire
+		(pts
+			(xy 149.86 158.75) (xy 152.4 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bcb36f5-d106-46e1-b0e7-7c9b3b4f5024")
+	)
+	(label "Enc_B_R"
+		(at 152.4 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65ef2e06-b7bb-4a2d-83c8-1a8642325628")
+	)
+	(wire
+		(pts
+			(xy 77.47 128.27) (xy 83.82 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6122c35c-23e2-49a2-adae-92383867dced")
+	)
+	(label "IMU_INT1"
+		(at 77.47 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "142259e8-f2c9-4819-910b-fbe0fa5da1fa")
+	)
+	(wire
+		(pts
+			(xy 77.47 130.81) (xy 83.82 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed4dae23-9b12-4f95-8484-0153d947ca21")
+	)
+	(label "IMU_INT2"
+		(at 77.47 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db7d5d38-6ed8-4c9e-bc96-f989807c1f98")
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
