@@ -19931,7 +19931,7 @@
 		)
 		(uuid "1bbcfa0f-973d-4061-9776-ff7a245b2f34")
 	)
-	(label "SW_1"
+	(label "beep"
 		(at 152.4 130.81 0)
 		(effects
 			(font
@@ -20031,7 +20031,7 @@
 		)
 		(uuid "59e31562-bb82-479d-b626-6679db39592f")
 	)
-	(label "beep"
+	(label "SW_1"
 		(at 152.4 173.99 0)
 		(effects
 			(font
