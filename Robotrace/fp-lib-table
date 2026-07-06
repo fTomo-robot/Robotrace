@@ -3,4 +3,5 @@
   (lib (name "MIC-4606")(type "KiCad")(uri "/Users/ftomo/Desktop/robo/Lib/LIB_MIC4606-2YML-TR/MIC4606-2YML-TR/KiCad")(options "")(descr ""))
   (lib (name "ICM-42688-P")(type "KiCad")(uri "/Users/ftomo/Desktop/robo/Lib/ICM-42688-P")(options "")(descr ""))
   (lib (name "LFPAK56D")(type "KiCad")(uri "/Users/ftomo/Desktop/robo/Lib")(options "")(descr ""))
+  (lib (name "CD74HC4067SM96")(type "KiCad")(uri "C:/Users/ftomo/Documents/GitHub/Robotrace/Lib/CD74HC4067SM96")(options "")(descr ""))
 )
