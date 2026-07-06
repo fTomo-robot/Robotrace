@@ -2557,17 +2557,6 @@
 		)
 		(uuid "f915f8cd-7759-4f7c-9b2d-afb48c2f0277")
 	)
-	(hierarchical_label "EN"
-		(shape input)
-		(at 137.16 67.31 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "27dd6bf2-ea88-47e1-8ad2-21f34915174a")
-	)
 	(label "Vout"
 		(at 95.25 68.58 270)
 		(effects
@@ -2577,6 +2566,16 @@
 			(justify right bottom)
 		)
 		(uuid "60cc7a8d-e4f0-408a-8879-07e81c7affde")
+	)
+	(label "EN"
+		(at 137.16 67.31 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8481e558-c528-46c5-ae69-ec3a81034468")
 	)
 	(label "Vout"
 		(at 179.07 74.93 0)

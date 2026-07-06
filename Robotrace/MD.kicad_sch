@@ -689,7 +689,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_Dual_NMOS_S1G1S2G2D2D1"
+		(symbol "Transistor_FET:Q_NMOS_SSSGD_AvalancheRated"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -706,7 +706,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_Dual_NMOS_S1G1S2G2D2D1"
+			(property "Value" "Q_NMOS_SSSGD_AvalancheRated"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -716,7 +716,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 5.08 0 0)
+				(at 5.08 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -725,7 +725,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 5.08 0 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -733,8 +733,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual NMOS transistor, 6 pin package"
-				(at 2.286 -12.192 0)
+			(property "Description" "N-MOSFET transistor, source (pins 1-3)/gate/drain (pin 5), SO-8/SO-8F/SO-8FL/SON-8/PowerPAK-8/TDSON-8/VSON-8"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -751,7 +751,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_Dual_NMOS_S1G1S2G2D2D1_0_1"
+			(symbol "Q_NMOS_SSSGD_AvalancheRated_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -895,7 +895,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
 					)
 					(stroke
 						(width 0)
@@ -918,66 +918,10 @@
 					)
 				)
 			)
-			(symbol "Q_Dual_NMOS_S1G1S2G2D2D1_1_1"
+			(symbol "Q_NMOS_SSSGD_AvalancheRated_1_1"
 				(pin input line
 					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Q_Dual_NMOS_S1G1S2G2D2D1_2_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
+					(length 5.08)
 					(name "G"
 						(effects
 							(font
@@ -1014,6 +958,44 @@
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
 					(name "S"
 						(effects
 							(font
@@ -2086,17 +2068,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1S2G2D2D1")
-		(at 238.76 64.77 0)
-		(unit 2)
+		(lib_id "Transistor_FET:Q_NMOS_SSSGD_AvalancheRated")
+		(at 175.26 52.07 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "36c73fb0-86b3-46c2-9d22-21bf274dbb21")
-		(property "Reference" "Q2"
-			(at 245.11 63.4999 0)
+		(uuid "32d07e11-8259-489b-bf53-4864c16d274c")
+		(property "Reference" "Q6"
+			(at 181.61 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,8 +2086,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_Dual_NMOS_S1G1S2G2D2D1"
-			(at 245.11 66.0399 0)
+		(property "Value" "Q_NMOS_SSSGD_AvalancheRated"
+			(at 181.61 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2113,8 +2095,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 243.84 64.77 0)
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+			(at 180.34 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,7 +2105,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 64.77 0)
+			(at 175.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2131,42 +2113,39 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual NMOS transistor, 6 pin package"
-			(at 241.046 76.962 0)
+		(property "Description" "N-MOSFET transistor, source (pins 1-3)/gate/drain (pin 5), SO-8/SO-8F/SO-8FL/SON-8/PowerPAK-8/TDSON-8/VSON-8"
+			(at 175.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "5"
-			(uuid "b2386209-08d2-43cf-9ea1-3bcf67ee2af5")
 		)
 		(pin "1"
-			(uuid "9ea1ed68-5430-411d-a418-be429af68cf7")
-		)
-		(pin "2"
-			(uuid "851d8011-8474-4487-bbb3-8aee3bc26465")
+			(uuid "1526f838-129b-499e-a4be-31915f5ed1aa")
 		)
 		(pin "4"
-			(uuid "0b489180-72d4-4607-b615-30a192c36ba5")
+			(uuid "50d128ed-84e2-4608-a96e-3f19b61a7b0c")
+		)
+		(pin "5"
+			(uuid "785dd609-981b-406e-93be-5068aa669167")
 		)
 		(pin "3"
-			(uuid "30b3536f-92c7-4091-b90c-154436658ae7")
+			(uuid "42153098-7a1e-4933-8f66-c89491ac693a")
 		)
-		(pin "6"
-			(uuid "cf4f831b-7180-4d72-babb-bba7e7ceb3b2")
+		(pin "2"
+			(uuid "d0575504-e314-4463-a718-88158b4ab211")
 		)
 		(instances
-			(project "Robotrace"
+			(project ""
 				(path "/fb9400cb-078f-4252-8423-42fc17461490/6481001b-d102-42c7-b029-9803d2f2201d"
-					(reference "Q2")
-					(unit 2)
+					(reference "Q6")
+					(unit 1)
 				)
 				(path "/fb9400cb-078f-4252-8423-42fc17461490/6ed1ae14-287c-49a6-bb5b-548c5a4e3e0d"
-					(reference "Q4")
-					(unit 2)
+					(reference "Q7")
+					(unit 1)
 				)
 			)
 		)
@@ -2551,7 +2530,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
 			(at 254 58.42 0)
 			(effects
 				(font
@@ -2665,7 +2644,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1S2G2D2D1")
+		(lib_id "Transistor_FET:Q_NMOS_SSSGD_AvalancheRated")
 		(at 175.26 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2673,8 +2652,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a346119b-b57c-444b-9e05-5de34daa2304")
-		(property "Reference" "Q2"
+		(uuid "9aafb0bb-d8d7-4799-a414-271b9cd9a51d")
+		(property "Reference" "Q1"
 			(at 181.61 63.4999 0)
 			(effects
 				(font
@@ -2683,7 +2662,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_Dual_NMOS_S1G1S2G2D2D1"
+		(property "Value" "Q_NMOS_SSSGD_AvalancheRated"
 			(at 181.61 66.0399 0)
 			(effects
 				(font
@@ -2692,8 +2671,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 180.34 64.77 0)
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+			(at 180.34 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2702,7 +2681,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 64.77 0)
+			(at 175.26 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2710,41 +2689,38 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual NMOS transistor, 6 pin package"
-			(at 177.546 76.962 0)
+		(property "Description" "N-MOSFET transistor, source (pins 1-3)/gate/drain (pin 5), SO-8/SO-8F/SO-8FL/SON-8/PowerPAK-8/TDSON-8/VSON-8"
+			(at 175.26 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "5"
-			(uuid "047b0152-f033-4214-be49-ffa8adbfb609")
 		)
 		(pin "1"
-			(uuid "ef910cfd-e9ca-4adc-96a9-5840e65b06d9")
-		)
-		(pin "2"
-			(uuid "5c856e2d-169d-4216-a80f-0f31e6ee0d8d")
+			(uuid "9387053e-808e-4639-b0a2-f95e85ed4006")
 		)
 		(pin "4"
-			(uuid "bf9d9162-8108-4737-b643-aed11c9e8186")
+			(uuid "4f92af5f-67d6-49ea-9d89-18b1a6cdbd75")
+		)
+		(pin "5"
+			(uuid "17e296e2-6b52-4b3d-a34a-c61550c3e256")
 		)
 		(pin "3"
-			(uuid "39fdef33-b739-48d9-8509-45f839e2b07e")
+			(uuid "62fc1312-d361-4250-931d-eadc6a0ba067")
 		)
-		(pin "6"
-			(uuid "0aa34311-33e2-4d87-a63d-13a06f40d062")
+		(pin "2"
+			(uuid "3f07bf54-a42c-4f57-ae5b-230e0183d5cb")
 		)
 		(instances
 			(project "Robotrace"
 				(path "/fb9400cb-078f-4252-8423-42fc17461490/6481001b-d102-42c7-b029-9803d2f2201d"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 				(path "/fb9400cb-078f-4252-8423-42fc17461490/6ed1ae14-287c-49a6-bb5b-548c5a4e3e0d"
-					(reference "Q4")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -2819,6 +2795,89 @@
 				)
 				(path "/fb9400cb-078f-4252-8423-42fc17461490/6ed1ae14-287c-49a6-bb5b-548c5a4e3e0d"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_SSSGD_AvalancheRated")
+		(at 238.76 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0e12358-a668-4480-b3e7-fe336c9e8890")
+		(property "Reference" "Q8"
+			(at 245.11 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_SSSGD_AvalancheRated"
+			(at 245.11 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+			(at 243.84 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, source (pins 1-3)/gate/drain (pin 5), SO-8/SO-8F/SO-8FL/SON-8/PowerPAK-8/TDSON-8/VSON-8"
+			(at 238.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ef7896b-55a2-409f-8422-9ff5fd628b77")
+		)
+		(pin "4"
+			(uuid "442cf1aa-b660-44bb-8346-11d340d1818d")
+		)
+		(pin "5"
+			(uuid "651d983e-5475-4409-b357-08e44533d6ce")
+		)
+		(pin "3"
+			(uuid "8d2d1c11-3827-43b5-a42b-7d90d5f419ac")
+		)
+		(pin "2"
+			(uuid "64fb2a65-62ae-4f10-80e9-052a941e79a0")
+		)
+		(instances
+			(project "Robotrace"
+				(path "/fb9400cb-078f-4252-8423-42fc17461490/6481001b-d102-42c7-b029-9803d2f2201d"
+					(reference "Q8")
+					(unit 1)
+				)
+				(path "/fb9400cb-078f-4252-8423-42fc17461490/6ed1ae14-287c-49a6-bb5b-548c5a4e3e0d"
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -2920,7 +2979,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
 			(at 191.77 58.42 0)
 			(effects
 				(font
@@ -3034,6 +3093,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_SSSGD_AvalancheRated")
+		(at 238.76 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc3f2d68-f0de-4f16-a505-6fccca76cd08")
+		(property "Reference" "Q3"
+			(at 245.11 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_SSSGD_AvalancheRated"
+			(at 245.11 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+			(at 243.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, source (pins 1-3)/gate/drain (pin 5), SO-8/SO-8F/SO-8FL/SON-8/PowerPAK-8/TDSON-8/VSON-8"
+			(at 238.76 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95dbfaf1-38be-4869-a58e-6412c5525b45")
+		)
+		(pin "4"
+			(uuid "879adc64-b5b1-4621-91fb-4d7ff7f0db55")
+		)
+		(pin "5"
+			(uuid "407d89e9-5f80-4fea-b0d5-f98568424de7")
+		)
+		(pin "3"
+			(uuid "28e72d3d-9c7b-4784-80cc-ebf0c0375cf0")
+		)
+		(pin "2"
+			(uuid "f73c9807-a77e-4c7f-8dd9-70da66ac82ca")
+		)
+		(instances
+			(project "Robotrace"
+				(path "/fb9400cb-078f-4252-8423-42fc17461490/6481001b-d102-42c7-b029-9803d2f2201d"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/fb9400cb-078f-4252-8423-42fc17461490/6ed1ae14-287c-49a6-bb5b-548c5a4e3e0d"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 241.3 72.39 0)
 		(unit 1)
@@ -3098,178 +3240,6 @@
 				)
 				(path "/fb9400cb-078f-4252-8423-42fc17461490/6ed1ae14-287c-49a6-bb5b-548c5a4e3e0d"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1S2G2D2D1")
-		(at 238.76 52.07 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa043a8d-9f0f-44a5-a6b1-20a0f75c99fa")
-		(property "Reference" "Q1"
-			(at 245.11 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_Dual_NMOS_S1G1S2G2D2D1"
-			(at 245.11 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual NMOS transistor, 6 pin package"
-			(at 241.046 64.262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "b59f4d04-7b8e-48bd-9d16-8fd338969d68")
-		)
-		(pin "1"
-			(uuid "9ea1ed68-5430-411d-a418-be429af68cf6")
-		)
-		(pin "2"
-			(uuid "851d8011-8474-4487-bbb3-8aee3bc26464")
-		)
-		(pin "4"
-			(uuid "4e3cba8d-13d2-457d-96bc-a6b651c0d132")
-		)
-		(pin "3"
-			(uuid "6f4ba83b-d16f-40e3-a5f8-dd88a2b47813")
-		)
-		(pin "6"
-			(uuid "cf4f831b-7180-4d72-babb-bba7e7ceb3b1")
-		)
-		(instances
-			(project ""
-				(path "/fb9400cb-078f-4252-8423-42fc17461490/6481001b-d102-42c7-b029-9803d2f2201d"
-					(reference "Q1")
-					(unit 2)
-				)
-				(path "/fb9400cb-078f-4252-8423-42fc17461490/6ed1ae14-287c-49a6-bb5b-548c5a4e3e0d"
-					(reference "Q3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1S2G2D2D1")
-		(at 175.26 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fcd64ccc-f55d-491b-8adc-75fe7a8aebf0")
-		(property "Reference" "Q1"
-			(at 181.61 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_Dual_NMOS_S1G1S2G2D2D1"
-			(at 181.61 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual NMOS transistor, 6 pin package"
-			(at 177.546 64.262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "047b0152-f033-4214-be49-ffa8adbfb60a")
-		)
-		(pin "1"
-			(uuid "5a70fa43-facf-4cba-98f8-48bc26b47d2e")
-		)
-		(pin "2"
-			(uuid "18378355-9f15-481e-8325-0be4fb3fb870")
-		)
-		(pin "4"
-			(uuid "bf9d9162-8108-4737-b643-aed11c9e8187")
-		)
-		(pin "3"
-			(uuid "39fdef33-b739-48d9-8509-45f839e2b07f")
-		)
-		(pin "6"
-			(uuid "225a0daa-5727-45a5-badc-68e819cabfef")
-		)
-		(instances
-			(project ""
-				(path "/fb9400cb-078f-4252-8423-42fc17461490/6481001b-d102-42c7-b029-9803d2f2201d"
-					(reference "Q1")
-					(unit 1)
-				)
-				(path "/fb9400cb-078f-4252-8423-42fc17461490/6ed1ae14-287c-49a6-bb5b-548c5a4e3e0d"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
