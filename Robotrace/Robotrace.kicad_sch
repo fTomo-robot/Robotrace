@@ -10699,6 +10699,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 80.01) (xy 152.4 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f8c1a4-7b3d-4a9e-9c5a-6f1d0b2e8a7c")
+	)
+	(wire
+		(pts
 			(xy 19.05 143.51) (xy 20.32 143.51)
 		)
 		(stroke
@@ -12056,6 +12066,16 @@
 			(justify left bottom)
 		)
 		(uuid "f1a31745-a678-421f-a963-4fd41cba2688")
+	)
+	(label "FLED"
+		(at 152.4 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4a1b2c3-9e6d-4a2f-8b7c-3d5e6f7a8b9c")
 	)
 	(label "Enc_B_R"
 		(at 274.32 99.06 180)
