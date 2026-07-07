@@ -5,4 +5,5 @@
   (lib (name "LFPAK56D")(type "KiCad")(uri "C:/Users/ftomo/Documents/GitHub/Robotrace/Lib")(options "")(descr ""))
   (lib (name "5051101892")(type "KiCad")(uri "C:/Users/ftomo/Documents/GitHub/Robotrace/Lib/5051101892")(options "")(descr ""))
   (lib (name "SSSS213202")(type "KiCad")(uri "C:/Users/ftomo/Documents/GitHub/Robotrace/Lib/SSSS213202")(options "")(descr ""))
+  (lib (name "ViaPad")(type "KiCad")(uri "C:/Users/ftomo/Documents/GitHub/Robotrace/Lib/ViaPad")(options "")(descr ""))
 )
