@@ -3331,6 +3331,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 85.09) (xy 340.36 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66efbe39-4e30-434f-bb5c-de011d8ec7a9")
+	)
+	(wire
+		(pts
 			(xy 40.64 81.28) (xy 45.72 81.28)
 		)
 		(stroke
@@ -3911,6 +3921,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 85.09) (xy 331.47 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a2eb5f-5d0d-4210-ba39-f76dfa5cd2e6")
+	)
+	(wire
+		(pts
 			(xy 240.03 36.83) (xy 240.03 39.37)
 		)
 		(stroke
@@ -4051,6 +4071,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 91.44) (xy 331.47 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd2633d7-2534-4cb2-9d78-6ac9532de5a7")
+	)
+	(wire
+		(pts
 			(xy 146.05 110.49) (xy 146.05 113.03)
 		)
 		(stroke
@@ -4098,6 +4128,16 @@
 			(type default)
 		)
 		(uuid "e532d578-4604-405b-87a3-2e289224e124")
+	)
+	(wire
+		(pts
+			(xy 340.36 91.44) (xy 340.36 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e55b2f53-c6bd-42a1-9ad7-6f33140d425d")
 	)
 	(wire
 		(pts
@@ -4771,6 +4811,71 @@
 			(project "LineBoard"
 				(path "/4249c2f4-240f-446c-be25-15c3eabac89b"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 340.36 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0586d5a8-7d33-4fff-b033-c1833ca18f71")
+		(property "Reference" "#PWR069"
+			(at 340.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 340.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 340.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 340.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d144e56b-610d-45cd-9aa9-8231d14e4d86")
+		)
+		(instances
+			(project "LineBoard"
+				(path "/4249c2f4-240f-446c-be25-15c3eabac89b"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -6376,6 +6481,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 331.47 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "322fbca5-eda2-4a0c-a358-194030cfd29e")
+		(property "Reference" "#PWR070"
+			(at 331.47 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 331.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 331.47 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8dffc71-4eda-487d-97d1-13f68170fb3f")
+		)
+		(instances
+			(project "LineBoard"
+				(path "/4249c2f4-240f-446c-be25-15c3eabac89b"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 109.22 168.91 180)
 		(unit 1)
@@ -7440,6 +7610,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 340.36 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "513ac685-2950-4de9-838d-dc588fcd8896")
+		(property "Reference" "#PWR071"
+			(at 340.36 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 340.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 340.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 340.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d48c731-aeb6-4c9c-8084-9bdc973417ba")
+		)
+		(instances
+			(project "LineBoard"
+				(path "/4249c2f4-240f-446c-be25-15c3eabac89b"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 199.39 69.85 0)
 		(unit 1)
@@ -7834,6 +8069,76 @@
 			(project "LineBoard"
 				(path "/4249c2f4-240f-446c-be25-15c3eabac89b"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 340.36 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "656f1e2b-82de-4841-9581-fce6d2d6156d")
+		(property "Reference" "C4"
+			(at 342.9 87.6362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 342.9 90.1762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 340.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 340.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 340.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f76917e7-800a-4406-aba3-3dd8d7f453b9")
+		)
+		(pin "2"
+			(uuid "91285a65-30a5-467f-aee8-1c054ed53c49")
+		)
+		(instances
+			(project "LineBoard"
+				(path "/4249c2f4-240f-446c-be25-15c3eabac89b"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9343,6 +9648,71 @@
 			(project "LineBoard"
 				(path "/4249c2f4-240f-446c-be25-15c3eabac89b"
 					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 331.47 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "911195ab-bfed-4c22-acb1-7362a86bf25c")
+		(property "Reference" "#PWR068"
+			(at 331.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 331.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 331.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e8849a5-760d-4e34-bebb-243c69bf65bd")
+		)
+		(instances
+			(project "LineBoard"
+				(path "/4249c2f4-240f-446c-be25-15c3eabac89b"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -11841,6 +12211,76 @@
 			(project "LineBoard"
 				(path "/4249c2f4-240f-446c-be25-15c3eabac89b"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 331.47 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca88b488-efea-45c8-a7ba-7c96020e24bd")
+		(property "Reference" "C3"
+			(at 334.01 87.6362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 334.01 90.1762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 331.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 331.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 331.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59d8091f-6cbf-4e77-b842-ad73546d23f5")
+		)
+		(pin "2"
+			(uuid "b3830a57-f3bf-41c1-aad0-09ddedccf7ef")
+		)
+		(instances
+			(project "LineBoard"
+				(path "/4249c2f4-240f-446c-be25-15c3eabac89b"
+					(reference "C3")
 					(unit 1)
 				)
 			)
